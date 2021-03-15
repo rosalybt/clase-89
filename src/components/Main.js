@@ -2,8 +2,8 @@ import imagenLogo from '../img/main_img.jpg'
 import '../App.css';
 
 const main = () => {
-    return (<section class="main">
-        <div class="main_info">
+    return (<section className="main">
+        <div className="main_info">
             <h2>Adopta un gatito</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <p>
@@ -20,7 +20,7 @@ const main = () => {
                 saepe quo reiciendis?
       </p>
         </div>
-        <div class="main_img">
+        <div className="main_img">
             <img src={imagenLogo} alt="img" />
         </div>
     </section>

@@ -72,10 +72,11 @@ const gatos = [
 const adopt = () => {
 
     return (
-        <section class="adopt">
+        <section className="adopt">
             {
                 gatos.map(gato => {
                     return <Tarjeta
+                        key={gato.id}
                         img={gato.img}
                         name={gato.name}
                         shortDescrip={gato.shortDesc}
